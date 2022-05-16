@@ -412,7 +412,7 @@ h3,
 		grid-template-columns: 1fr;
 	}
 
-	.subsection__circle {
+	.circle2 {
 		display: none;
 	}
 }
@@ -476,7 +476,7 @@ h3,
 }
 
 .lapiz {
-	width: clamp(25rem, 8.1818rem + 14.5455vw, 30rem);
+	width: clamp(18rem, 8.1818rem + 14.5455vw, 30rem);
 }
 
 .opiniones__resena {
