@@ -35,6 +35,38 @@ html {
 	--space-4xl-5xl: clamp(7.88rem, calc(6rem + 8vw), 12rem);
 }
 
+/* Fade-in animation */
+
+.fade-in {
+	-webkit-animation: fade-in 1.75s cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s both;
+	animation: fade-in 1.75s cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s both;
+}
+
+.fade-in-delay {
+	-webkit-animation: fade-in 1.1s cubic-bezier(0.39, 0.575, 0.565, 1) 1s both;
+	animation: fade-in 1.1s cubic-bezier(0.39, 0.575, 0.565, 1) 1s both;
+}
+
+@-webkit-keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
 /* Custom fonts */
 
 @font-face {
