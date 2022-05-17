@@ -656,7 +656,7 @@ h3,
 }
 
 .lupa {
-	height: clamp(10rem, -3.1111rem + 23.1111vw, 20rem);
+	height: clamp(8rem, -3.1111rem + 23.1111vw, 20rem);
 }
 
 .contacto__ubicacion__info > .text-bold {
