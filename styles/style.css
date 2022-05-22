@@ -622,7 +622,7 @@ h3,
 
 	.contacto__ubicacion__grid {
 		justify-content: space-around;
-		gap: var(--space-xs-s);
+		gap: var(--space-s-m);
 	}
 
 	.divider2 {
